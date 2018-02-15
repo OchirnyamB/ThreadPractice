@@ -8,9 +8,12 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notifcationexamples.NotificationsUIController">
    <children>
-      <Button layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask1" text="Task 1" />
-      <Button layoutX="107.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask2" text="Task 2" />
-      <Button layoutX="185.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask3" text="Task 3" />
+      <Button fx:id="buttonTask1" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask1" text="Start Task 1" />
+      <Button fx:id="buttonTask2" layoutX="126.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask2" text="Start Task 2" />
+      <Button fx:id="buttonTask3" layoutX="225.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask3" text="Start Task 3" />
       <TextArea fx:id="textArea" layoutX="29.0" layoutY="66.0" prefHeight="307.0" prefWidth="542.0" />
+      <Button fx:id="endButtonTask1" layoutX="28.0" layoutY="22.0" mnemonicParsing="false" onAction="#endTask1" prefHeight="27.0" prefWidth="93.0" text="End Task 1" />
+      <Button fx:id="endButtonTask2" layoutX="126.0" layoutY="22.0" mnemonicParsing="false" onAction="#endTask2" prefHeight="27.0" prefWidth="93.0" text="End Task 2" />
+      <Button fx:id="endButtonTask3" layoutX="225.0" layoutY="23.0" mnemonicParsing="false" onAction="#endTask3" prefHeight="27.0" prefWidth="93.0" text="End Task 3" />
    </children>
 </AnchorPane>

@@ -42,7 +42,7 @@ public class Task3 extends Thread {
                 return;
             }
         }
-        doNotify("Task3 done.");
+        doNotify("Task 3 ended naturally.");
     }
     
     public void end() {
